@@ -1,0 +1,104 @@
+/* Signin.css */
+
+.signup-wrapper {
+    background-color: #f0f2f5; /* Light gray background for the wrapper */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the container vertically and horizontally */
+  }
+  
+  .signup-container {
+    background: white; /* White background for the container */
+    padding: 30px 40px 12px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 350px; /* Fixed width for the container */
+    text-align: center; /* Center the text */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .logo-signup {
+    width: 100px; /* Set width for logo */
+    margin-left: 76px;
+    margin-bottom: 10px;
+
+  }
+  
+  .title-signup {
+    font-size: 14px; /* Increased font size for better prominence */
+    font-weight: 600; /* Semi-bold font weight for emphasis */
+    letter-spacing: 1px; /* Adds a little space between letters */
+    text-transform: uppercase; /* Makes the title all uppercase for a modern look */
+    font-family: 'Roboto', sans-serif; /* A modern font family */
+    background: linear-gradient(91deg, #FF7E1B,#1bbbff);
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent to show the gradient */
+    padding-bottom: 10px; /* Optional: Space below if you add an underline */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+  
+  .signin-form {
+    width: 100%; /* Full width for the form */
+  }
+  
+  .signup-input-field {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+  }
+  .select-field{
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+  }
+  
+  .signup-input-field:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .submit-button {
+    width: 50%; /* Full width for button */
+    padding: 10px; /* Padding inside the button */
+    margin-top: 10px; /* Space above the button */
+    background-color: #007bff; /* Blue background for the button */
+    color: white; /* White text for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .toast-container {
+    z-index: 9999; /* Ensure toast notifications are on top */
+  }
+  
+.signin-link {
+    font-size: 14px; /* Font size for the text */
+    color: #0056B3; /* Color for the link */
+}
+
+.signin-button {
+    color: #0056B3; /* Link color */
+    font-weight: 600; /* Semi-bold weight for emphasis */
+    text-decoration: none; /* Remove underline */
+}
+
+.signin-button:hover {
+    text-decoration: underline; /* Underline on hover for effect */
+    color: #FF7E1B; /* Change color on hover to match the gradient */
+}

@@ -1,0 +1,21 @@
+  .add-visitor-btn {
+    background: linear-gradient(to right, #3949ab, #5c6bc0); /* Button gradient */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .add-visitor-btn:hover {
+    background: linear-gradient(to right, #303f9f, #3f51b5);
+  }  
+
+  @media (max-width: 768px) {
+    .add-visitor-btn {
+      width:230px;
+      padding: 10px 0;
+    }
+  }

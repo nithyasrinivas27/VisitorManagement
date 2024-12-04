@@ -1,0 +1,20 @@
+/* SignOutButton.css */
+.sign-out-btn {
+    background-color: #dc3545; /* Red background for the sign-out button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    font-size: 16px; /* Font size */
+  }
+  
+  .sign-out-btn:hover {
+    background-color: #c82333; /* Darker shade on hover */
+  }
+  
+  .sign-out-btn:focus {
+    outline: none; /* Remove outline on focus */
+  }
+  

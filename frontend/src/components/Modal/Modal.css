@@ -1,0 +1,69 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center;
+    z-index: 1000; /* Ensure it's above other elements */
+    animation: fadeIn 0.3s ease; /* Fade-in animation */
+  }
+  
+  .modal-content {
+    background-color: #fff; /* White background for the modal */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 300px; /* Set a fixed width */
+    text-align: center; /* Center the text */
+    margin-top: 50px; /* Add margin to push it down from the top */
+    animation: slideDown 0.3s ease; /* Slide down animation */
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-20px); /* Start slightly above */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0); /* End at original position */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  .modal-buttons {
+    margin-top: 20px; /* Space between message and buttons */
+    display: flex;
+    justify-content: space-around; /* Space buttons evenly */
+  }
+  
+  .modal-confirm,
+  .modal-cancel {
+    background-color: #007bff; /* Blue background for buttons */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for the buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .modal-confirm:hover,
+  .modal-cancel:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
